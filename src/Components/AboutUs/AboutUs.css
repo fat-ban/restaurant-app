@@ -1,0 +1,49 @@
+.aboutus-sect{
+   /*height: 100vh!important;*/
+}
+.text-left{
+
+}
+
+.text-left>h1{
+color: #101010;
+
+font-family: 'Dancing Script'!important;
+
+}
+.text-left> h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.text-left >p{
+    color: #8a8585;
+    text-align: center;
+}
+.btn-text{
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid #ffcc0d;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-text:hover{
+color: #ffcc0d;
+}
+.img-right{
+
+}
+.img-circle1, .img-circle2{
+   
+  
+}
+.card-group{
+    background-color:#fff;
+}
+.card-about{
+box-shadow: none;
+}
+.card-about:hover{
+box-shadow: 0 0 40px rgba(255, 193, 5,0.8); ;
+}

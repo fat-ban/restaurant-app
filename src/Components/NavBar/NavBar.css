@@ -1,0 +1,40 @@
+/*.navigationBar{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}*/
+
+.text-link{
+    /*font-size: 12px!important;*/
+    color:#b3a6a6;
+    
+  
+    transition: color 0.5s ease-in-out;
+    letter-spacing: 1px;
+    font-family: 'ABeeZee', sans-serif!important;
+}
+.main-text-link{
+    /*font-size: 12px!important;*/
+    font-family: 'ABeeZee', sans-serif!important;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+}
+.text-link:hover, .main-text-link:hover{
+    color: #ffffff!important;
+    opacity: 1;
+    border-bottom: 2px solid #ffc107 ;
+}
+
+.click-menu{
+    color: #ffffff!important;
+    opacity: 1;
+    border-bottom: 2px solid #ffc107 ;
+}
+
+.link-navabar.active{
+    border-bottom: 2px solid #ffc107 ;
+}
+
+
+
+

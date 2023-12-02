@@ -1,0 +1,36 @@
+.footer-section{
+    position: relative;
+    
+    
+}
+.title-phone{
+    font-size: 18px;
+     font-family: 'Dancing Script'!important;
+     
+}
+.list-getto-recent{
+   
+}
+.liste-footer{
+    color: #776d6d;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.liste-footer:hover{
+    color: #9b8c8c;
+}
+.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+}
+.icon-social{
+  color: #776d6d;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.icon-social:hover{
+    color:#ffc107;
+  }

@@ -1,0 +1,99 @@
+.ingredient-sect{
+   margin: 0;
+   position: relative;
+}
+.text-right h1{
+    /*color: #101010;
+    font-size: 60px;*/
+   /* font-family: 'Courgette', cursive!important;
+
+    line-height: 1.3;
+    font-weight: bold!important;*/
+    }
+    .main-title-ingred{
+        font-family: 'Dancing Script'!important; 
+    }
+    .text-right h3{
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .text-right p{
+        color: #8a8585;
+        text-align: center;
+    }
+    
+    .main-title-ing,.main-title-pick{
+        /*font-family: 'Courgette', cursive!important;*/
+        font-family: 'Dancing Script'!important;
+
+        font-size: 1.5rem!important;
+        color: #fff!important;
+        
+    }
+    
+    .main-title-footer{
+        font-family: 'Courgette', cursive!important;
+
+        font-size: 2.5rem!important;
+        color: #000!important;
+    }
+    
+    .card-ingred-hover > p,.card-pick-hover>p{
+        color: #fff!important;
+        letter-spacing: 1.2px;
+        /*font-size: 13px;*/
+    
+    }
+    .card-ingred{
+        position: relative;
+       
+        }
+        .card-pick{
+            position: relative;
+        }
+       
+       
+        .card-ingred-hover,.card-pick-hover{
+          display: flex;
+          flex-direction: column;
+          justify-content: center!important;
+          align-items: center!important;
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #000000b3;
+          color: white;
+          width: 100%;
+          height: 100%;
+          transition: all .5s ease-in-out;
+          -webkit-transition: all .5s ease-in-out;
+          -moz-transition: all .5s ease-in-out;
+          -ms-transition: all .5s ease-in-out;
+          -o-transition: all .5s ease-in-out;
+          opacity: 0;
+          
+}
+       .card-ingred:hover .card-ingred-hover,.card-pick:hover .card-pick-hover{
+        /*display: flex;*/
+        opacity: 1;
+
+        transform: translateX(-100px,100px);
+          -webkit-transform: translateX(-100px,100px);
+          -moz-transform: translateX(-100px,100px);
+          -ms-transform: translateX(-100px,100px);
+          -o-transform: translateX(-100px,100px);
+}
+       
+@keyframes cardMove {
+    from{
+
+    }
+    to{
+
+    }
+    
+}
+        
+        /*  w-100*/

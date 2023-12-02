@@ -1,0 +1,50 @@
+.btn-text{
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid rgb(255, 212, 76)!important;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+    background-color: transparent!important;
+    
+    padding: 6px 5px ;
+    width: 150px;
+    height: 60px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.btn-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 6px 5px ;
+    width: 0;
+    height: 0;
+    background-color: rgba(240, 222, 163,0.7);
+    transition: all .5s ease-in-out ;
+    -webkit-transition: all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out ;
+    opacity: 0;
+}
+.btn-text:hover::before {
+   /*color: rgb(255, 212, 76)!important;
+   */
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+ 
+   /*padding: 6px 3px ;*/
+   background-color: rgba(240, 222, 163,0.7);
+   width: 150px;
+   height: 60px;
+   opacity: 1;
+   color: black;
+   
+}
+
+
