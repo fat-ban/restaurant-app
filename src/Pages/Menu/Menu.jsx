@@ -5,7 +5,6 @@ import testimonialbg from "../../assets/testimonialbg.jpg"
 
 //import ButtonSect from "../../Components/ButtonSect/ButtonSect"
 import { BASE_URL } from "../../API/FetchData"
-import { Audio } from "react-loader-spinner"
 import ShowModal from "../../Components/ShowModal/ShowModal"
 
 
@@ -112,15 +111,8 @@ const fetchSearchByNameMeal = async(evt) =>{
           </div>
             )
           })):(
-            <Audio
-  height="100"
-  width="100"
-  color="#4fa94d"
-  ariaLabel="audio-loading"
-  wrapperStyle={{}}
-  wrapperClass="wrapper-class"
-  visible={true}
-/>
+            <p className="main-title-menu text-darck text-capitalize mt-5 text-center" style={{fontSize:"8rem" , fontWeight: "800", lineHeight:"1.5"}}>Loading Page...</p>
+
           ))}
           </div>
         </div>
