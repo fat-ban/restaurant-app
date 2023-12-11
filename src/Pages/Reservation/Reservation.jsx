@@ -1,4 +1,4 @@
-import "./reservation.css"
+import "./Reservation.css"
 import testimonialbg from "../../assets/testimonialbg.jpg"
 import { useEffect } from "react"
 
