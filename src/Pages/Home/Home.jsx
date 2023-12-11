@@ -11,7 +11,7 @@ import Ingredient from '../../Components/Ingredient/Ingredient';
 
 import Promotion from '../../Components/Promotion/Promotion';
 import Gallery from '../../Components/Gallery/Gallery';
-import GetTous from '../../Components/getToUs/GetTous';
+import GetTous from '../../Components/GetTous/GetTous';
 import Testimonial from '../../Components/Testimonial/Testimonial';
 
 //icon
