@@ -1,12 +1,12 @@
 import { useEffect,useState } from 'react';
 
-import './Home.css'
+import './Home.css';
 
 
 
-import Header from '../../Components/Header/Header'
-import AboutUs from '../../Components/AboutUs/AboutUs'
-import Recommends from '../../Components/Recommends/Recommends'
+import Header from '../../Components/Header/Header';
+import AboutUs from '../../Components/AboutUs/AboutUs';
+import Recommends from '../../Components/Recommends/Recommends';
 import Ingredient from '../../Components/Ingredient/Ingredient';
 
 import Promotion from '../../Components/Promotion/Promotion';
@@ -69,4 +69,4 @@ const Home = ({mealsCategories}) => {
   )
 }
 
-export default Home
+export default Home;
